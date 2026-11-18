@@ -1,0 +1,11 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Report a security problem privately
+    url: https://github.com/hantswilliams/de-id-desktop/security/advisories/new
+    about: Please don't post security problems in a public issue.
+  - name: Buying, refunds and teams
+    url: https://deid-tool.com/install.html
+    about: Price, the 30-day refund, and enquiries for a team or organization.
+  - name: Security review
+    url: https://deid-tool.com/security.html
+    about: What De-ID stores, what it connects to, and what it can't promise.

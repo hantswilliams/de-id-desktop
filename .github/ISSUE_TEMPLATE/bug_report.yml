@@ -1,0 +1,55 @@
+name: Report a problem
+description: Something it missed, something that looks wrong, or something that got in your way.
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        **Issues are public. Please don't post real names, patient or student information, or documents.**
+        De-identify first, or describe the shape of the problem with made-up data.
+        For a security problem, see [SECURITY.md](https://github.com/hantswilliams/de-id-desktop/blob/main/SECURITY.md) instead.
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened
+      description: What you did, what you expected, and what De-ID did instead.
+      placeholder: A name split over two lines in a scanned PDF stayed in the clean copy.
+    validations:
+      required: true
+  - type: dropdown
+    id: kind
+    attributes:
+      label: Kind of file or feature
+      multiple: true
+      options:
+        - PDF (typed)
+        - PDF (scanned)
+        - Word
+        - Excel, CSV or Parquet
+        - Text
+        - Photo
+        - Copy twice (clipboard)
+        - AI workspace
+        - Review or audit
+        - Install or launch
+        - Something else
+  - type: input
+    id: version
+    attributes:
+      label: De-ID version
+      description: Shown in the sidebar, and in Settings → About.
+      placeholder: "0.8.4"
+    validations:
+      required: true
+  - type: input
+    id: system
+    attributes:
+      label: Your system
+      placeholder: macOS 15 on Apple silicon, Windows 11, Ubuntu 24.04
+    validations:
+      required: true
+  - type: textarea
+    id: more
+    attributes:
+      label: Anything else
+      description: Settings you had on, screenshots with identifiers covered, or how often it happens.

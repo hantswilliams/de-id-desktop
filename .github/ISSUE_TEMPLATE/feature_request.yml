@@ -1,0 +1,20 @@
+name: Ask for something
+description: A file type, a kind of identifier, an AI tool, or anything that would make De-ID work for you.
+labels: [enhancement]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        **Issues are public. Please don't post real names, patient or student information, or documents.**
+  - type: textarea
+    id: need
+    attributes:
+      label: What you'd like
+      description: What you're trying to do, and what's in the way today.
+    validations:
+      required: true
+  - type: textarea
+    id: who
+    attributes:
+      label: Who it's for
+      description: Optional. Your kind of work, such as clinical notes, research interviews or student records, helps decide what comes first.
