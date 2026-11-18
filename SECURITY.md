@@ -7,7 +7,7 @@ report it privately rather than in a public issue.
 
 - **On GitHub:** use [Report a vulnerability](https://github.com/hantswilliams/de-id-desktop/security/advisories/new)
   on this repository's Security tab.
-- **By email:** [hantsawilliams@gmail.com](mailto:hantsawilliams@gmail.com?subject=De-ID%20security),
+- **By email:** [hello@deid-tool.com](mailto:hello@deid-tool.com?subject=De-ID%20security),
   with "De-ID security" in the subject.
 
 Please don't include real identifiers. Describe the problem with made-up

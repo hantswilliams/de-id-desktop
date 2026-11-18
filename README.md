@@ -47,6 +47,6 @@ The result should match the line for that file in `SHA256SUMS.txt`.
   what it can't promise.
 - [Website privacy](https://deid-tool.com/privacy.html): what deid-tool.com
   collects. The app itself sends nothing.
-- Email: [hantsawilliams@gmail.com](mailto:hantsawilliams@gmail.com)
+- Email: [hello@deid-tool.com](mailto:hello@deid-tool.com)
 
 De-ID Desktop is made by Hants Williams.

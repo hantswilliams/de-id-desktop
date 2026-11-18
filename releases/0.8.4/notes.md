@@ -102,6 +102,6 @@ it's as sensitive as your originals. Keep the disk encrypted.
 ## Questions and problems
 
 [Open an issue](https://github.com/hantswilliams/de-id-desktop/issues/new/choose),
-without real identifiers, or email hantsawilliams@gmail.com. The
+without real identifiers, or email hello@deid-tool.com. The
 [security review](https://deid-tool.com/security.html) says what De-ID
 stores, what it connects to, and what it can't promise.
